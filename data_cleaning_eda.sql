@@ -1,8 +1,8 @@
 -- Data cleaning
 USE world_layoffs;
 
-select *
-from world_layoffs.layoffs as lf;
+SELECT *
+FROM world_layoffs.layoffs as lf;
 
 -- process
 # 1. Remove duplicates
@@ -18,8 +18,8 @@ from world_layoffs.layoffs as lf;
 -- SELECT *
 -- FROM layoffs;
 
-select *
-from layoffs_staging;
+SELECT *
+FROM layoffs_staging;
 
 
 -- 1. Remove Duplicates
